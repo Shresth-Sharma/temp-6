@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Shresth Sharma</title>
+        <link rel="shortcut icon" href="photos/logo.png">
+        <link rel="styleSheet" type="text/css" href="css/top.css">
+        <link rel="styleSheet" type="text/css" href="css/assets.css">
+    </head>
+    <body style="background-color:black;">  
+        <div id="top" style="border-style:double;border-color:red;">
+            <div onmouseover="mouseonhome()" onmouseleave="mouseleavehome()"  id="home">
+                <button id="homebt" onclick="home()">Home</button>
+            </div>
+            <div onmouseover="mouseonmenu()" onmouseleave="mouseleavemenu()"  id="menu">
+                <button id="menubt">Menu</button>
+                <div id="menudw">
+                    <a class="menudw1" id="menudw1" onmouseover="mouseonmenudw(1)" onmouseleave="mouseleavemenudw(1)" href="more/about_me.html">About Me</a>
+                    <a class="menudw1" id="menudw2" onmouseover="mouseonmenudw(2)" onmouseleave="mouseleavemenudw(2)" href="more/feedack.html">Feedback!</a>
+                    <a class="menudw1" id="menudw3" onmouseover="mouseonmenudw(3)" onmouseleave="mouseleavemenudw(3)" href="more/Chess.html">Play Chess With Me</a>
+                    <a class="menudw1" id="menudw4" onmouseover="mouseonmenudw(4)" onmouseleave="mouseleavemenudw(4)" href="more/settings.html">Settings</a>
+                </div>
+            </div>
+            <div onmouseover="mouseonsocial()" onmouseleave="mouseleavesocial()"  id="social">
+                <button id="socialbt">Social Media</button>
+                <div id="socialdw">
+                    <a class="socialdw1" id="socialdw1" onmouseover="mouseonsocialdw(1)" onmouseleave="mouseleavesocialdw(1)" href="https://www.instagram.com/shresth._.sharma/">Instagram</a>
+                    <a class="socialdw1" id="socialdw2" onmouseover="mouseonsocialdw(2)" onmouseleave="mouseleavesocialdw(2)" onclick="discord()"><u>Discord</u></a>
+                    <a class="socialdw1" id="socialdw3" onmouseover="mouseonsocialdw(3)" onmouseleave="mouseleavesocialdw(3)" href="https://www.snapchat.com/add/shresth_1310?share_id=XUAfZv9MOqA&locale=en-US">Snapchat</a>
+                    <a class="socialdw1" id="socialdw4" onmouseover="mouseonsocialdw(4)" onmouseleave="mouseleavesocialdw(4)" href="https://www.youtube.com/channel/UCYTYFa_AmyzJqEC9hIZ-YPw">Youtube</a>
+                </div>
+            </div>
+            <div onmouseover="mouseoncontact()" onmouseleave="mouseleavecontact()"  id="contact">
+                <button id="contactbt">Contact Me</button>
+                <div id="contactdw">
+                    <a class="contactdw1" id="contactdw1" onmouseover="mouseoncontactdw(1)" onmouseleave="mouseleavecontactdw(1)" onclick="gmail();"><u>Createwithshresth2008@gmail.com</u></a>
+                </div>
+            </div>
+            <div onmouseover="mouseonfeedack()" onmouseleave="mouseleavefeedack()"  id="feedack">
+                <button id="feedackbt" onclick="feedack()">Feedback!</button>
+            </div>
+        </div>
+        <div id="photo">
+            <img>
+            <center>
+                <img src="photos/My_Photo.png" width="200">
+                <h1 id="name">SHRESTH SHARMA</h1>
+            </center>
+        </div>
+        <script src="js/top.js"></script>
+    </body>
+</html>

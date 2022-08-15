@@ -1,0 +1,202 @@
+#top{
+    background-color: black;
+    overflow:hidden;
+    padding:5px;
+}
+#top a{
+    float: left;
+    color:white;
+    padding:5px;
+    font-size:25px;
+    text-align: center;
+}
+#menu{
+    float:left;
+    background-color:black;
+    padding:5px;
+    padding-left:20px;
+}
+#menubt{
+    border-style:inset;
+    border-radius: 10px;
+    border-color:red;
+    border-width:3px;
+    background-color:black;
+    font-size:20px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    color:white;
+    font-family:nav_bar;
+}
+#menudw{
+    display:none;
+    z-index:1;
+    position:absolute;
+}
+#menudw a{
+    float : none;
+    display:block;
+    padding:20px;
+    min-width:200px;
+background-color:black;
+    font-family:nav_bar_1;
+    border-style: inset;
+    border-radius: 15px;
+    border-color:red;
+    border-width:4px;
+    color:blue;
+}
+#menu:hover #menudw{
+    display:block;
+}
+#social{
+    float:left;
+    background-color:black;
+    padding:5px;
+    padding-left:20px;
+}
+#socialbt{
+    border-style:inset;
+    border-radius: 10px;
+    border-color:red;
+    border-width:3px;
+    background-color:black;
+    font-size:20px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    color:white;
+    font-family:nav_bar;
+}
+#socialdw{
+    display:none;
+    z-index:1;
+    position:absolute;
+}
+#socialdw a{
+    float : none;
+    display:block;
+    padding:20px;
+    min-width:200px;
+background-color:black;
+    font-family:nav_bar_1;
+    border-style: inset;
+    border-radius: 15px;
+    border-color:red;
+    border-width:4px;
+    color:blue;
+}
+#social:hover #socialdw{
+    display:block;
+}
+#home{
+    float:left;
+    background-color:black;
+    padding:5px;
+    padding-left:20px;
+}
+#homebt{
+    border-style:inset;
+    border-radius: 10px;
+    border-color:red;
+    border-width:3px;
+    background-color:black;
+    font-size:20px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    color:white;
+    font-family:nav_bar;
+}
+#feedack{
+    float:right;
+    background-color:black;
+    padding:5px;
+    padding-right:20px;
+}
+#feedackbt{
+    border-style:inset;
+    border-radius: 10px;
+    border-color:red;
+    border-width:3px;
+    background-color:black;
+    font-size:20px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    color:white;
+    font-family:nav_bar;
+}
+#home{
+    float:left;
+    background-color:black;
+    padding:5px;
+    padding-left:20px;
+}
+#homebt{
+    border-style:inset;
+    border-radius: 10px;
+    border-color:red;
+    border-width:3px;
+    background-color:black;
+    font-size:20px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    color:white;
+    font-family:nav_bar;
+}
+#contact{
+    float:left;
+    background-color:black;
+    padding:5px;
+    padding-left:20px;
+}
+#contactbt{
+    border-style:inset;
+    border-radius: 10px;
+    border-color:red;
+    border-width:3px;
+    background-color:black;
+    font-size:20px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    color:white;
+    font-family:nav_bar;
+}
+#contactdw{
+    display:none;
+    z-index:1;
+    position:absolute;
+}
+#contactdw a{
+    float : none;
+    display:block;
+    padding:20px;
+    min-width:200px;
+background-color:black;
+    font-family:nav_bar_1;
+    border-style: inset;
+    border-radius: 15px;
+    border-color:red;
+    border-width:4px;
+    color:blue;
+}
+#contact:hover #contactdw{
+    display:block;
+}
+#photo{
+    background-color:red;
+}
+#name{
+    font-family:nav_name;
+    font-size:50px;
+}

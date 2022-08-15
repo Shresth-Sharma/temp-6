@@ -1,0 +1,17 @@
+@font-face {
+    font-family: nav_bar;
+    src: url(../fonts/nav_bar_1.otf);
+}
+@font-face{
+    font-family: nav_name;
+    src: url(../fonts/nav_name.ttf);
+}
+@font-face {
+    font-family: nav_bar_1;
+    src: url(../fonts/nav_bar_1.otf);
+}
+@keyframes nav_border{
+    0%{border-color:red;}
+    50%{border-color:yellow;}
+    100%{border-color:red;}
+}
